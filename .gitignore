@@ -1,0 +1,12 @@
+# Local secrets and Laravel runtime artifacts
+backend/.env
+backend/vendor/
+backend/storage/*.key
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/storage/logs/*
+laravel-app/.env
+laravel-app/vendor/
+laravel-app/storage/
+laravel-app/bootstrap/cache/*.php
